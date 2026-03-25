@@ -1,18 +1,35 @@
 # fukui-station-kanko-reservation
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-This project provides an open-source web application that visualizes the hotel reservation and occupancy data for the Fukui Station area in Fukui, Japan.
+福井駅前エリア 宿泊予約状況（データ出典：福井県観光連盟）
 
-## Demo
-https://code4fukui.github.io/fukui-station-kanko-reservation/
+**Live demo**: https://code4fukui.github.io/fukui-station-kanko-reservation/
 
 ## Features
-- Displays hotel occupancy, average daily rate (ADR), RevPAR, and other key metrics for the Fukui Station area
-- Allows users to view data for a selected date range
-- Provides open data downloads in CSV format
 
-## Data / API
-The project uses open data from the Fukui Prefectural Tourism Federation, accessed through undisclosed APIs.
+- CSV data parsing
+
+## Technology Stack
+
+**Browser modules (ES imports):**
+
+- [`CSV.js`](https://js.sabae.cc/CSV.js)
+- [`DateTime.js`](https://js.sabae.cc/DateTime.js)
+- [`DateTime.js`](https://code4fukui.github.io/day-es/DateTime.js)
+
+
+## Project Structure
+
+- `data/` — Data files and fixtures
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/fukui-station-kanko-reservation/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
